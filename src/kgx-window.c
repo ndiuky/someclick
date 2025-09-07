@@ -548,19 +548,19 @@ about_activated  (GtkWidget  *widget,
                   const char *action_name,
                   GVariant   *parameter)
 {
-  const char *developers[] = { "Zander Brown <zbrown@gnome.org>", NULL };
+  const char *developers[] = { "Zander Brown <zbrown@gnome.org>", "Farid Tipayev <anod100002@gmail.com>", NULL };
   const char *designers[] = { "Tobias Bernard", NULL };
   g_autofree char *copyright = NULL;
 
   /* Translators: %s is the year range */
-  copyright = g_strdup_printf (_("© %s Zander Brown"), "2019-2025");
+  copyright = g_strdup_printf (_("© %s Zander Brown, ndiuky"), "2019-2025");
 
   adw_show_about_dialog (widget,
                          "application-name", KGX_DISPLAY_NAME,
                          "application-icon", KGX_APPLICATION_ID,
-                         "developer-name", _("The GNOME Project"),
-                         "issue-url", "https://gitlab.gnome.org/GNOME/console/-/issues/",
-                         "website", "https://apps.gnome.org/en-GB/app/org.gnome.Console/",
+                         "developer-name", _("The GNOME Project  |  Patched by ndiuky"),
+                         "issue-url", "https://github.com/ndiuky/someclick/issues",
+                         "website", "https://github.com/ndiuky/someclick",
                          "version", PACKAGE_VERSION,
                          "developers", developers,
                          "designers", designers,

@@ -1,10 +1,8 @@
-# Console / KGX
+# GNOME Console with Someclick
 
 ![](logo.png)
 
-Console aims to be a simple terminal emulator for the average user to carry out casual cli tasks.
-
-We are not however trying to replace GNOME Terminal/Tilix, these advanced tools are great for developers and administrators, rather Console aims to serve the casual linux user who rarely needs a terminal
+This is **patched** [kgx (GNOME Console)](https://gitlab.gnome.org/GNOME/console): now you can right-click to copy/paste (as in Windows)
 
 ## Use of Generative AI
 
