@@ -1,4 +1,5 @@
 # Maintainer: ndiuky <anod100002@gmail.com>
+# Contributor: Zander Brown <zbrown@gnome.org>
 
 pkgname=someclick
 pkgver=48.1_someclick
